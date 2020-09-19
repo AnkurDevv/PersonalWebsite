@@ -261,7 +261,7 @@ header{
 
     @media only screen and (max-width: 768px) {
       .bodySubHeading {
-        margin: 3vh 3%;
+        margin: 3vh auto;
         font-size: 108%;
       }
 
@@ -269,9 +269,6 @@ header{
     }
 /*  SKILLS SECTION CSS - END  */
 
-
 /* CONTACT ME SECTION CSS - START */
-
-
 
 /* CONTACT ME SECTION CSS - END */
