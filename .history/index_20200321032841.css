@@ -1,0 +1,13 @@
+/* FIRST IMPRESSION SECTION CSS - START */
+.first-impression-row{
+  height: 100vh;
+  background-image:url(./images/background.jfif) no-repeat;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#MainNameHeading{
+  margin: 0 auto;
+  margin-top: 35vh;
+}
+/* FIRST IMPRESSION SECTION CSS - ENDS */

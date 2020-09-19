@@ -1,0 +1,105 @@
+body{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* NAVBAR CSS - START */
+
+#Brand-logo{
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 270%;
+}
+
+.navbar-nav{
+  margin-left: auto;
+}
+
+.nav-link{
+  font-size: 155%;
+  font-weight: 700;
+  padding: 2vw!important;
+}
+
+@media only screen and (max-width: 992px) {
+  .nav-link{
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  
+  #Brand-logo{
+    font-size: 140%;
+  }
+
+  .navbar-nav{
+    height: 100vh;
+  }
+
+  .nav-link{
+    margin: 5vh auto;
+  }
+
+}
+
+/* NAVBAR CSS - END */
+
+/* FIRST IMPRESSION SECTION CSS - START */
+header{
+  height: 100vh; /* Takes 100% of the screen size */
+  background-image:url(../images/sunset_skyline_lake_reflection_114025_1920x1080.jpg);
+  -webkit-background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+#MainNameHeading{
+  margin: 0 auto;
+  margin-top: 20vh;
+  font-size: 395%;  
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  padding-bottom: 3%;
+}
+
+#MainSubHeading{
+  margin: 0 auto;
+  color: white;
+  text-align: -webkit-center;
+  font-family: 'Inconsolata', monospace;
+  font-size: xx-large;
+}
+
+#ResumeBtn{
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  margin: 8% auto;
+  margin-bottom: 2%;
+  padding: 10px 3%;
+  background-color: transparent;
+  border: 4px solid white;
+}
+
+#ResumeBtn:hover{
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  font-size: 130%;
+}
+
+.socialLinksDiv{
+  display: flex;
+  justify-content: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #MainNameHeading{
+    font-size: 300%;
+  }
+  #MainSubHeading{
+    font-size: x-large;
+  }
+}
+/* FIRST IMPRESSION SECTION CSS - ENDS */

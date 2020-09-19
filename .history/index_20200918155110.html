@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Ankur Aggarwal</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- FONT AWESOME FOR SOCIAL MEDIA ICONS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Importing Bootstrap here -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!--CUSTOM CSS FOR THE PAGE  -->
+  <link rel="stylesheet" href="./style/index.css">
+  <!-- FOR COOL ANIMATION EFFECTS -->
+  <link rel="stylesheet" href="./style/animate.css">
+  <!-- FOR COOL TYPING EFFECTS -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <!-- FOR AOS LIBRARY -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- FOR GOOGLE FONTS - START -->
+  <!-- for main heading -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Pacifico&family=Roboto&family=Roboto+Slab:wght@500&display=swap"
+    rel="stylesheet">
+  <!-- For Sub heading -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Merienda:wght@700&family=Pacifico&family=Roboto&family=Roboto+Slab:wght@500&display=swap"
+    rel="stylesheet">
+  <!-- For Navbar Logo -->
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+  <!-- FOR GOOGLE FONTS - END -->
+</head>
+
+<body>
+  <!-- NAVBAR - START -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <a class="navbar-brand" id="Brand-logo">Ankur Aggarwal.</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" id="nav-tog"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" onclick="closeNavDrop();" href="#AboutMe">About</a>
+        </li>
+        <!-- <li class="nav-item active">
+          <a class="nav-link" href="#">Why Me?</a>
+        </li> -->
+        <li class="nav-item active">
+          <a class="nav-link" href="#MySkills" onclick="closeNavDrop();">Skills</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#" onclick="closeNavDrop();">Projects</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#" onclick="closeNavDrop();">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- NAVBAR - END -->
+
+  <header>
+    <!-- FIRST IMPRESSION SECTION - START -->
+    <section class="first-impression-section">
+      <div class="row first-impression-row">
+        <h1 class="text-center animated fadeInDown" id="MainNameHeading">A team driven individual for
+        </h1>
+      </div>
+      <div class="row">
+        <h3 id="MainSubHeading">
+          <span id="typed" style="white-space:pre;"></span>
+          <!-- <span class="typed-cursor typed-cursor--blink">|</span> -->
+        </h3>
+      </div>
+
+      <!-- RESUME BUTTON - START -->
+      <div class="row" id="ResumeDiv">
+        <a type="button" href="https://drive.google.com/file/d/129eEq26ATzqey1-hpHnRXs40bzbBVkSX/view?usp=sharing"
+          target="blank" class="btn btn-primary animated delay-1s fadeInLeft" id="ResumeBtn">Resume</a>
+      </div>
+      <!-- RESUME BUTTON - END -->
+
+      <!-- SOCIAL LINKS -->
+      <div class="socialLinksDiv animated delay-2s fadeInRight">
+        <!-- github link -->
+        <a href="https://github.com/AnkurDevv" target="blank" class="social-link"><i
+            class="fa fa-github fa-2x text-white"></i></a>
+        <!-- linkedin link -->
+        <a href="https://www.linkedin.com/in/ankur-aggarwal2112/" target="blank" class="social-link"><i
+            class="fa fa-linkedin fa-2x text-white"></i></a>
+        <!-- instagram link -->
+        <a href="https://www.instagram.com/ankur_2112/?hl=en" target="blank" class="social-link"><i
+            class="fa fa-instagram fa-2x text-white"></i></a>
+      </div>
+
+      <!-- SCROLL DOWN INDICATOR -->
+      <div class="scrollDownDiv">
+        <a href="#AboutMe">
+          <img src="images/downward Arrow.png" alt="" id="scroll-down-arrow" class="fadeUp">
+        </a>
+      </div>
+    </section>
+    <!-- FIRST IMPRESSION SECTION - END -->
+
+
+  </header>
+
+  <!------------ ABOUT ME SECTION - START ---------------->
+  <section id="AboutMe" data-aos="fade-down-right">
+
+    <div class="container-fluid SectionHeadingContainer">
+      <!-- Section Heading -->
+      <div class="row sectionHeading">
+        <h1 class="display-4 sectionHeadingText">About Me</h1>
+      </div>
+
+      <hr class="subLine">
+
+      <!-- ABOUT ME SECTION CONTENT -->
+      <div class="row">
+        <!-- MY IMAGE -->
+        <div class="col-xs-12 col-lg-4 myImage-col" data-aos="flip-left" data-aos-duration="2500">
+          <img src="images/me.png" alt="profileImage" id="myImg">
+        </div>
+        <!-- ABOUT ME TEXT -->
+        <div class="col-xs-12 col-lg-8 aboutMeTextContainer">
+          <p id="aboutMe-txt">
+            I'm a developer who has a passion for developing great user interactive programs. Currently I am really into
+            web application development and figuring out my way through different API's. For the front-end, I'm working
+            with Vue.js. Meanwhile,
+            On the back-end, I'm getting
+            accustomed to Laravel.
+            <br><br>
+            During my free time, I like to learn new things, meet new people and go checkout some new event, meetup
+            or volunteer. Ocassionaly, I like gaming too. But that is what I do during my free time. Mostly, you'd
+            see me with my earphones on, scratching my head over some bug and scrolling through stackOverflow.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+  <!------------ ABOUT ME SECTION - END ---------------->
+
+
+  <!-------------- SKILLS SECTION - START ----------------->
+  <section id="MySkills" data-aos="fade-down-left">
+
+    <div class="container-fluid SectionHeadingContainer">
+      <!-- Section Heading -->
+      <div class="row sectionHeading">
+        <h1 class="display-4 sectionHeadingText">Skills</h1>
+      </div>
+
+      <hr class="subLine">
+
+
+    </div>
+
+  </section>
+  <!-------------- SKILLS SECTION - END ----------------->
+
+  <script>
+    // JS FOR COOL TYPING EFFECT USING TYPE.JS -  START
+    var options = {
+      strings: ['Web Development.', 'Software Engineering.', 'Product Development.'],
+      typeSpeed: 100,
+      loop: true,
+      backDelay: 800,
+      backSpeed: 80,
+      startDelay: 3000,
+    };
+    var typed = new Typed('#typed', options);
+   // JS FOR COOL TYPING EFFECT USING TYPE.JS -  END
+  </script>
+
+  <!-- FOR AOS - START -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    if (document.readyState == 'complete') {
+      AOS.refresh();
+    }
+  </script>
+  <!-- FOR AOS - END -->
+
+
+  <!-- NECESSARY JS FOR BOOTSTRAP - START -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <!-- NECESSARY JS FOR BOOTSTRAP - END -->
+
+  <!-- ADDING JQUERY - START -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- ADDING JQUERY - END -->
+
+  <!-- CUSTOM JS FOR THE PAGE - START  -->
+  <script src="index.js"></script>
+  <!-- CUSTOM JS FOR THE PAGE - END  -->
+</body>
+
+</html>

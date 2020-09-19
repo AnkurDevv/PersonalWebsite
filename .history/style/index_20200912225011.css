@@ -1,0 +1,48 @@
+body{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* NAVBAR CSS - START */
+
+#Brand-logo{
+  Brand-logo
+}
+
+.navbar-nav{
+  margin-left: auto;
+}
+
+.nav-link{
+  font-size: 155%;
+  font-weight: 700;
+}
+
+/* NAVBAR CSS - END */
+
+/* FIRST IMPRESSION SECTION CSS - START */
+header{
+  height: 100vh; /* Takes 100% of the screen size */
+  background-image:url(../images/sunset_skyline_lake_reflection_114025_1920x1080.jpg);
+  -webkit-background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+#MainNameHeading{
+  margin: 0 auto;
+  margin-top: 27vh;
+  font-size: 395%;  
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  padding-bottom: 3%;
+}
+
+#MainSubHeading{
+  margin: 0 auto;
+  color: white;
+  text-align: -webkit-center;
+  font-family: 'Inconsolata', monospace;
+  font-size: xx-large;
+}
+/* FIRST IMPRESSION SECTION CSS - ENDS */

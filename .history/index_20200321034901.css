@@ -1,0 +1,17 @@
+/* FIRST IMPRESSION SECTION CSS - START */
+.first-impression-row{
+  height: 100vh;
+  background-image:url(./images/background.jpg);
+  -webkit-background-size: cover;
+  background-position: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#MainNameHeading{
+  margin: 0 auto;
+  margin-top: 35vh;
+  font-size: 395%;
+  color: white;
+}
+/* FIRST IMPRESSION SECTION CSS - ENDS */

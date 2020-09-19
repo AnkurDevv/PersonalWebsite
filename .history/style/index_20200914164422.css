@@ -1,0 +1,182 @@
+body{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* NAVBAR CSS - START */
+
+#Brand-logo{
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 270%;
+}
+
+.navbar-nav{
+  margin-left: auto;
+}
+
+.nav-link{
+  font-size: 155%;
+  font-weight: 700;
+  padding: 2vw!important;
+}
+
+@media only screen and (max-width: 992px) {
+  .nav-link{
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  
+  #Brand-logo{
+    font-size: 140%;
+  }
+
+  .navbar-nav{
+    height: 100vh;
+  }
+
+  .nav-link{
+    margin: 5vh auto;
+  }
+
+}
+
+/* NAVBAR CSS - END */
+
+/* FIRST IMPRESSION SECTION CSS - START */
+header{
+  height: 100vh; /* Takes 100% of the screen size */
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)), url(../images/sunset_skyline_lake_reflection_114025_1920x1080.jpg)no-repeat center center fixed;
+  background-position: center;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+}
+
+#MainNameHeading{
+  margin: 0 auto;
+  margin-top: 12vh;
+  font-size: 395%;  
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  padding-bottom: 3%;
+}
+
+#MainSubHeading{
+  margin: 0 auto;
+  color: white;
+  text-align: -webkit-center;
+  font-family: 'Inconsolata', monospace;
+  font-size: xx-large;
+}
+
+#ResumeBtn{
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  margin: 5% auto;
+  margin-bottom: 2%;
+  padding: 10px 3%;
+  background-color: transparent;
+  border: 4px solid white;
+  border-radius: 25px;
+}
+
+#ResumeBtn:hover{
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  font-size: 130%;
+}
+
+.socialLinksDiv{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+.social-link{
+  margin: 12px;
+}
+
+.scrollDownDiv{
+  display: flex;
+  justify-content: center;
+}
+
+#scroll-down-arrow{
+  display: none;
+  max-width: 8vh;
+}
+                /* ADD A FLCIKER ANIMATION TO SCROLL DOWN IMG */
+
+@keyframes flickerAnimation {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-o-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+
+.animate-flicker {
+  -webkit-animation: flickerAnimation 1s infinite;
+  -moz-animation: flickerAnimation 1s infinite;
+  -o-animation: flickerAnimation 1s infinite;
+   animation: flickerAnimation 1s infinite;
+}
+
+            /* ADD A FLCIKER ANIMATION TO SCROLL DOWN IMG */
+
+@media only screen and (max-width: 600px) {
+
+  #scroll-down-arrow{
+    max-width: 6vh;
+    display: none;
+  }
+  #MainNameHeading{
+    font-size: 245%;
+    margin-top: 7vh;
+  }
+  #MainSubHeading{
+    font-size: x-large;
+  }
+  #ResumeBtn {
+    font-size: 125%;
+  }
+  .socialLinksDiv{
+    margin-bottom: 15%;
+  }
+}
+/* FIRST IMPRESSION SECTION CSS - ENDS */
+
+/* ABOUT ME SECTION CSS - START */
+
+.sectionHeadingText{
+  font-weight: 400;
+  margin: 1% auto;
+}
+
+.myImage-col{
+  text-align: center;
+}
+
+#myImg{
+  max-width: 75%;
+  padding: 8%;
+  margin: 0 auto;
+}
+
+/* ABOUT ME SECTION CSS - END */
