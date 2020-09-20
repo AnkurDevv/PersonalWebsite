@@ -285,7 +285,7 @@ header{
   font-size: 215%;  
   color: white;
   font-family: 'Roboto Slab', serif;
-  padding-bottom: 2%;
+  padding-bottom: 3%;
   padding-top: 3%;
   text-align: center;
 }
@@ -313,9 +313,6 @@ header{
   #contactUs-text{
     font-size: 157%;
     padding: 3%;
-  }
-  #ContactBtn{
-    padding: 10px 10%;
   }
 }
 
