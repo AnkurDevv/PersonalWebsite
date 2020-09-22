@@ -23,6 +23,12 @@ $(document).ready(function () {
     // $('#scroll-down-arrow').addClass('');
   }, 4000);
 
+  $(".projectFilterBtn").hover(function () {
+    console.log("reached here");
+    $(".projectFilterBtn").addClass('btn-light').removeClass('.btn-dark');
+  });
+
+
 });
 
 // Function to close dropDrown after clicking nav-link

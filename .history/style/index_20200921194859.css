@@ -341,7 +341,6 @@ header{
   max-width: 100%;
   margin: auto;
   max-height: 98%;
-  border: 3px solid black;
 }
 
 .projectImg:hover{
@@ -368,10 +367,6 @@ header{
 @media only screen and (max-width: 768px) {
   .projectBtnContainer{
     justify-content: center;
-    margin-bottom: 4%;
-  }
-  #tooLongForSmallScreen{
-    font-size: 190%;
   }
 }
 

@@ -1,7 +1,7 @@
 // CHANGING NAVBAR COLOR WHEN A USER HOVERS OVER A LINK
 $(document).ready(function () {
 
-  // makes nav dark themed when user hovers on a link
+  // makes nav transparent when user hovers on a link
   $(".nav-link").hover(function () {
     $('.navbar').addClass('bg-dark').removeClass('bg-light');
     $('#Brand-logo').css("color", "white");
@@ -9,7 +9,7 @@ $(document).ready(function () {
     $('.navbar-toggler').css("color", "white");
   });
 
-  // makes nav light themed when user stops hovers on a link
+  // makes nav non-transparent when user hovers on a link
   $(".navbar").mouseleave(function () {
     $('.navbar').addClass('bg-light').removeClass('bg-dark');
     $('#Brand-logo').css("color", "black");
@@ -22,6 +22,11 @@ $(document).ready(function () {
     $('#scroll-down-arrow').css("display", "block");
     // $('#scroll-down-arrow').addClass('');
   }, 4000);
+
+  $(".projectFilterBtn").hover{
+    $(".projectFilterBtn").addClass('btn-light').removeClass(".btn-dark");
+  }
+
 
 });
 

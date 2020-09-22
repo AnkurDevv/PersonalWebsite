@@ -23,6 +23,8 @@ $(document).ready(function () {
     // $('#scroll-down-arrow').addClass('');
   }, 4000);
 
+
+
 });
 
 // Function to close dropDrown after clicking nav-link

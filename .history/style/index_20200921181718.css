@@ -328,7 +328,7 @@ header{
 }
 
 .btn-group>.btn {
-  border-radius: 0;
+  border-radius: 25PX;
   margin: 8px;
 }
 
@@ -337,42 +337,9 @@ header{
   color: black;
 }
 
-.projectImg{
-  max-width: 100%;
-  margin: auto;
-  max-height: 98%;
-  border: 3px solid black;
-}
-
-.projectImg:hover{
-  filter: grayscale(100%);
-}
-
-.ProjectBtn{
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button;
-  padding: 10px 5%;
-  background-color: transparent;
-  border: 4px solid black;
-  color: black;
-  margin-right: 3%;
-}
-
-.ProjectBtn:hover{
-  background-color: black;
-  border: 4px solid black;
-  color: white;
-}
 
 @media only screen and (max-width: 768px) {
-  .projectBtnContainer{
-    justify-content: center;
-    margin-bottom: 4%;
-  }
-  #tooLongForSmallScreen{
-    font-size: 190%;
-  }
+
 }
 
 /* PROJECT SECTION CSS - END */
