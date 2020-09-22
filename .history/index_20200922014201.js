@@ -28,8 +28,8 @@ $(document).ready(function () {
     $('#allFilter').attr('class', 'btn filterSelected');
     $("#professionalFilter").attr('class', 'btn projectFilterBtn btn-dark');
     $("#personalFilter").attr('class', 'btn projectFilterBtn btn-dark');
-    // MAKE ALL PROJECTS APPEAR
-    $(".all").fadeIn(2000);
+    // MAKE ALL APPEAR
+    $(".all").css("display", "block");
   });
 
   // ALL WILL BE SELECTED AT THE BEGINNING 
@@ -43,10 +43,6 @@ $("#professionalFilter").click(function () {
   $("#allFilter").attr('class', 'btn projectFilterBtn btn-dark');
   $("#personalFilter").attr('class', 'btn projectFilterBtn btn-dark');
 
-  // ONLY PROFESSIONAL PROJECTS APPEARS
-  $(".professional").fadeIn(2000);
-  $(".personal").fadeOut(2000);
-
 });
 
 // To highlight the right project filter button - 3
@@ -54,10 +50,6 @@ $("#personalFilter").click(function () {
   $('#personalFilter').attr('class', 'btn filterSelected');
   $("#allFilter").attr('class', 'btn projectFilterBtn btn-dark');
   $("#professionalFilter").attr('class', 'btn projectFilterBtn btn-dark');
-
-  // ONLY PROFESSIONAL PROJECTS APPEARS
-  $(".professional").fadeOut(2000);
-  $(".personal").fadeIn(2000);
 });
 
 // Function to close dropDrown after clicking nav-link

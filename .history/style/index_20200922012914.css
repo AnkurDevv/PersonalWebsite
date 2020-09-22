@@ -294,6 +294,7 @@ header{
 #ContactBtn{
   -webkit-appearance: button;
   -moz-appearance: button;
+  -webkit-appearance: button;
   appearance: button;
   margin: 0 auto;
   margin-bottom: 2%;

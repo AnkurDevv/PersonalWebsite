@@ -28,7 +28,7 @@ $(document).ready(function () {
     $('#allFilter').attr('class', 'btn filterSelected');
     $("#professionalFilter").attr('class', 'btn projectFilterBtn btn-dark');
     $("#personalFilter").attr('class', 'btn projectFilterBtn btn-dark');
-    // MAKE ALL PROJECTS APPEAR
+    // MAKE ALL PROJECTS  APPEAR
     $(".all").fadeIn(2000);
   });
 

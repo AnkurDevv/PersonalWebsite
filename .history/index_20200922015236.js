@@ -28,8 +28,8 @@ $(document).ready(function () {
     $('#allFilter').attr('class', 'btn filterSelected');
     $("#professionalFilter").attr('class', 'btn projectFilterBtn btn-dark');
     $("#personalFilter").attr('class', 'btn projectFilterBtn btn-dark');
-    // MAKE ALL PROJECTS APPEAR
-    $(".all").fadeIn(2000);
+    // MAKE ALL APPEAR
+    $(".all").css("display", "block");
   });
 
   // ALL WILL BE SELECTED AT THE BEGINNING 
@@ -42,6 +42,9 @@ $("#professionalFilter").click(function () {
   $('#professionalFilter').attr('class', 'btn filterSelected');
   $("#allFilter").attr('class', 'btn projectFilterBtn btn-dark');
   $("#personalFilter").attr('class', 'btn projectFilterBtn btn-dark');
+
+  // $(".professional").css("display", "block");
+  // $(".personal").css("display", "none");
 
   // ONLY PROFESSIONAL PROJECTS APPEARS
   $(".professional").fadeIn(2000);
@@ -56,6 +59,8 @@ $("#personalFilter").click(function () {
   $("#professionalFilter").attr('class', 'btn projectFilterBtn btn-dark');
 
   // ONLY PROFESSIONAL PROJECTS APPEARS
+  // $(".professional").css("display", "none");
+  // $(".personal").css("display", "block");
   $(".professional").fadeOut(2000);
   $(".personal").fadeIn(2000);
 });

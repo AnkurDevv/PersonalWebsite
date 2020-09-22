@@ -81,7 +81,6 @@ header{
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
-  -webkit-appearance: button;
   margin: 5% auto;
   margin-bottom: 2%;
   padding: 10px 3%;
@@ -294,6 +293,7 @@ header{
 #ContactBtn{
   -webkit-appearance: button;
   -moz-appearance: button;
+  -webkit-appearance: button;
   appearance: button;
   margin: 0 auto;
   margin-bottom: 2%;
