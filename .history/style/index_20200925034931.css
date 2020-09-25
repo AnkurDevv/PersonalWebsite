@@ -372,8 +372,8 @@ header{
   color: white;
 }
 
-/* Making Projects section IPAD friendly */
-@media only screen and (max-width: 1024px) {
+/*  */
+@media only screen and (max-width: 768px) {
   #tooLongForSmallScreen{
     font-size:190%;
   }
