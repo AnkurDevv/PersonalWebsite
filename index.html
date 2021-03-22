@@ -16,6 +16,12 @@
   <link rel="stylesheet" href="./style/index.css">
   <!-- FOR COOL ANIMATION EFFECTS -->
   <link rel="stylesheet" href="./style/animate.css">
+
+  <!-- CAROUSEL FOR SKILLS SECTION - START -->
+  <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" />
+  <!-- CAROUSEL FOR SKILLS SECTION - END -->
+
   <!-- FOR COOL TYPING EFFECTS -->
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
   <!-- FOR AOS LIBRARY -->
@@ -33,10 +39,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
   <!-- FOR GOOGLE FONTS - END -->
 
-  <!-- CAROUSEL FOR SKILLS SECTION - START -->
-  <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
-  <link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" />
-  <!-- CAROUSEL FOR SKILLS SECTION - END -->
+
 
   <!-- CSS FOR RADIAL PROGRESS BAR -->
   <link rel="stylesheet" href="style/circle.css">
@@ -563,8 +566,13 @@
   <!-- ADDING JQUERY - END -->
 
   <!-- FOR SKILLS SECTION - CAROUSEL - START  -->
-  <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
-  <script src="/bower_components/owl.carousel/dist/owl.carousel.min.js"></script>
+  <script src="jquery.min.js"></script>
+  <script src="owlcarousel/owl.carousel.min.js"></script>
+  <script>
+    $(document).ready(function () {
+        $(".owl-carousel").owlCarousel();
+      });
+  </script>
   <!-- FOR SKILLS SECTION - CAROUSEL - END  -->
 
   <!-- FOR RADIAL CIRCULAR PROGRESS - START -->
